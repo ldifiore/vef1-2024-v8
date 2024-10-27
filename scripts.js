@@ -45,6 +45,7 @@ const reversedElm = document.querySelector('.reversed');
 
 function display(){
     outputElm.classList.remove('hidden');
+    inputElm.innerHTML = stringElm.value;
     longestElm.innerHTML = longest(stringElm.value);
     shortestElm.innerHTML = shortest(stringElm.value);
     vowelsElm.innerHTML = vowels(stringElm.value);
